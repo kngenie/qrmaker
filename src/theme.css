@@ -1,0 +1,57 @@
+/* Design tokens. CSS custom properties inherit into the components' shadow roots. */
+:root {
+  color-scheme: light dark;
+
+  --qr-bg: #fbf3e8;
+  --qr-surface: #fffaf3;
+  --qr-surface-2: #f6e8d6;
+  --qr-border: #ead6bd;
+  --qr-text: #3a2a1f;
+  --qr-text-muted: #7a6353;
+  --qr-primary: #c2552d;
+  --qr-primary-hover: #a8451f;
+  --qr-primary-soft: #fbe1d2;
+  --qr-on-primary: #fffaf3;
+  --qr-accent: #e8a33d;
+  --qr-warn-bg: #fff1cc;
+  --qr-warn-text: #7a4b00;
+  --qr-error-bg: #fde0da;
+  --qr-error-text: #8c2410;
+  --qr-focus: #e8a33d;
+  --qr-shadow: 0 1px 2px rgb(90 50 20 / 0.06), 0 6px 24px rgb(90 50 20 / 0.08);
+
+  --qr-radius: 16px;
+  --qr-radius-sm: 10px;
+  --qr-font: ui-rounded, "SF Pro Rounded", "Nunito", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --qr-bg: #1f1712;
+    --qr-surface: #2a201a;
+    --qr-surface-2: #352820;
+    --qr-border: #4a382c;
+    --qr-text: #f5e9dc;
+    --qr-text-muted: #c4ad99;
+    --qr-primary: #ec7a4f;
+    --qr-primary-hover: #f28f68;
+    --qr-primary-soft: #4a2b1e;
+    --qr-on-primary: #1f1712;
+    --qr-warn-bg: #4a3712;
+    --qr-warn-text: #ffd98a;
+    --qr-error-bg: #4d1f16;
+    --qr-error-text: #ffb4a3;
+    --qr-shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 6px 24px rgb(0 0 0 / 0.25);
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--qr-bg);
+  color: var(--qr-text);
+  font-family: var(--qr-font);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}

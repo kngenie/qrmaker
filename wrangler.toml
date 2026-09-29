@@ -1,0 +1,7 @@
+# Cloudflare Workers static-assets deployment: `npx wrangler deploy` after `npm run build`.
+# (For Cloudflare Pages instead, set build command `npm run build` and output directory `dist`.)
+name = "qrmaker"
+compatibility_date = "2026-09-01"
+
+[assets]
+directory = "./dist"

@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.wrangler/
+.netlify/
+.DS_Store
+.claude/
