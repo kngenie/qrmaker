@@ -1,4 +1,4 @@
-# QR Maker
+# QR Kobo
 
 A small, friendly web app that turns a web address into a QR code image.
 

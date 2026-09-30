@@ -177,7 +177,7 @@ export class QrApp extends LitElement {
       <header>
         <img src="/favicon.svg" alt="" />
         <div>
-          <h1>QR Maker</h1>
+          <h1>QR Kobo</h1>
           <p class="muted">Turn any web address into a QR code people can scan with their phone.</p>
         </div>
       </header>
